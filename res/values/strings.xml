@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SNSTest</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="app_id">111111111111111YourAppIdOfFacebook</string>
+    
+    <string name="btn_Twitter_logged_in">Twitter : start test</string>
+    <string name="btn_Facebook_logged_in">Facebook : start test</string>
+    <string name="btn_Twitter_not_logged_in">Log in with Twitter</string>
+    <string name="btn_Facebook_not_logged_in">Log in with Facebook</string>
+
+</resources>
