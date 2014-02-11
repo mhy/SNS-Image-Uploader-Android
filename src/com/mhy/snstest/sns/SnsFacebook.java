@@ -107,10 +107,11 @@ public class SnsFacebook implements ISns {
 
 	@Override
 	public void updateStatus(Bitmap photo, String text) {
-		if(photo == null){
+		if(photo != null){
 			Toast.makeText(mActivity.getApplicationContext(),
-					"Test : No photo, only text will be posted",
+					"Test : No photo, please take a photo",
 					Toast.LENGTH_SHORT).show();
+			return;
 		}
 		
 		Session session = Session.getActiveSession();

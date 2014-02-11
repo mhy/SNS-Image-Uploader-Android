@@ -171,8 +171,9 @@ public class SnsTwitter implements ISns {
 	public void updateStatus(Bitmap photo, final String text) {
 		if(photo == null){
 			Toast.makeText(mActivity.getApplicationContext(),
-					"Test : No photo, only text will be posted",
+					"Test : No photo, please take a photo",
 					Toast.LENGTH_SHORT).show();
+			return;
 		}
 		
 		ByteArrayOutputStream baos = new ByteArrayOutputStream();
